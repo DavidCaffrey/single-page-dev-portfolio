@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Single-page developer portfolio</title>
   </head>
+
   <body>
     <header>
-      <div>adamkeyes</div>
-      <ul>
+      <h2>adamkeyes</h2>
+      <ul class="social-links">
         <li><img src="images/icon-github.svg" alt="" srcset="" /></li>
         <li><img src="images/icon-frontend-mentor.svg" alt="" srcset="" /></li>
         <li><img src="images/icon-linkedin.svg" alt="" srcset="" /></li>
@@ -24,33 +25,48 @@
       </ul>
     </header>
     <main>
-      <h1>Nice to meet you! I'm Adam Keyes.</h1>
-      <p>
-        Based in the UK, I'm a front-end developer passionate about building
-        accessible web apps that users love.
-      </p>
+      <img
+        src="images/pattern-rings.svg"
+        alt="five thin rings stacked on top of each other"
+        srcset=""
+        class="rings"
+      />
       <picture>
         <source
           srcset="images/image-profile-desktop.webp"
           media="(min-width:1000px)"
           type="image/webp"
+          class="profile-picture"
         />
         <source
           srcset="images/image-profile-tablet.webp"
           media="(min-width:800px)"
           type="image/webp"
+          class="profile-picture"
         />
         <source
           srcset="images/image-profile-mobile.webp"
           media="(max-width: 750px)"
           type="image/webp"
+          class="profile-picture"
         />
         <img
           src="images/image-profile-mobile.webp"
           alt="adam keyes head shot photo"
+          class="profile-picture"
         />
       </picture>
-      <img src="images/pattern-circle.svg" alt="small ring" srcset="" />
+      <img
+        src="images/pattern-circle.svg"
+        alt="small ring"
+        srcset=""
+        class="circle"
+      />
+      <h1>Nice to meet you! I'm Adam Keyes.</h1>
+      <p>
+        Based in the UK, I'm a front-end developer passionate about building
+        accessible web apps that users love.
+      </p>
       <a href="#">Contact me</a>
       <h3>HTML</h3>
       <p>4 Years Experience</p>
@@ -64,7 +80,6 @@
       <p>3 Years Experience</p>
       <h3>Sass</h3>
       <p>3 Years Experience</p>
-      <img src="images/pattern-rings.svg" alt="five thin rings stacked on top of each other" srcset="">
       <h2>Projects</h2>
       <a href="#">Contact me</a>
       <section>
