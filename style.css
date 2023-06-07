@@ -1,57 +1,61 @@
 @font-face {
-  font-family: "Space Grotesk", sans-serif;
-  src: url("E:\WEB DEVELOPMENT REPO\FRONTENDMENTOR\JUNIOR CHALLENGES\single-page-developer-portfolio\SpaceGrotesk-VariableFont_wght.ttf");
+    font-family: "Space Grotesk", sans-serif;
+    src: url("E:\WEB DEVELOPMENT REPO\FRONTENDMENTOR\JUNIOR CHALLENGES\single-page-developer-portfolio\SpaceGrotesk-VariableFont_wght.ttf");
 }
 
 :root {
-  --clr-black: #151515;
-  --clr-green: #4ee1a0;
-  --clr-dark-grey: #242424;
-  --clr-light-grey: #d9d9d9;
-  --clr-white: #ffffff;
+    --clr-black: #151515;
+    --clr-green: #4ee1a0;
+    --clr-dark-grey: #242424;
+    --clr-light-grey: #d9d9d9;
+    --clr-white: #ffffff;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  color-scheme: dark;
+    color-scheme: dark;
 }
 
 body {
-  font-family: "Space Grotesk";
-  /* font-weight: 300; */
-  display: grid;
-  place-items: center;
+    font-family: "Space Grotesk";
+    /* font-weight: 300; */
+    /* display: grid;
+    place-items: center; */
 }
 
-.social-links {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-li {
-  list-style: none;
+.nav-head {}
+
+.social-list {
+    display: flex;
+    list-style: none;
 }
+
+.social-list-item {}
 
 .rings {
-  position: absolute;
-  left: -350px;
-  top: 200px;
+    position: absolute;
+    left: -350px;
+    top: 200px;
 }
 
 .profile-picture {
-  width: 25%;
-  margin-left: 2rem;
+    width: 25%;
+    margin-left: 2rem;
 }
 
 .circle {
-  position: absolute;
-  right: -65px;
-  top: 250px;
+    position: absolute;
+    right: -65px;
+    top: 250px;
 }

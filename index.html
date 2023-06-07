@@ -1,235 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Single-page developer portfolio</title>
-  </head>
+</head>
 
-  <body>
-    <header>
-      <h2>adamkeyes</h2>
-      <ul class="social-links">
-        <li><img src="images/icon-github.svg" alt="" srcset="" /></li>
-        <li><img src="images/icon-frontend-mentor.svg" alt="" srcset="" /></li>
-        <li><img src="images/icon-linkedin.svg" alt="" srcset="" /></li>
-        <li><img src="images/icon-twitter.svg" alt="" srcset="" /></li>
-      </ul>
+<body>
+    <header class="nav">
+        <h2 class="nav-head">adamkeyes</h2>
+        <ul class="social-list">
+            <li class="social-list-item">
+                <img src="images/icon-github.svg" alt="" srcset="" class="social-icon" />
+            </li>
+            <li class="social-list-item">
+                <img src="images/icon-frontend-mentor.svg" alt="" srcset="" class="social-icon" />
+            </li>
+            <li class="social-list-item">
+                <img src="images/icon-linkedin.svg" alt="" srcset="" class="social-icon" />
+            </li>
+            <li class="social-list-item">
+                <img src="images/icon-twitter.svg" alt="" srcset="" class="social-icon" />
+            </li>
+        </ul>
     </header>
     <main>
-      <img
-        src="images/pattern-rings.svg"
-        alt="five thin rings stacked on top of each other"
-        srcset=""
-        class="rings"
-      />
-      <picture>
-        <source
-          srcset="images/image-profile-desktop.webp"
-          media="(min-width:1000px)"
-          type="image/webp"
-          class="profile-picture"
-        />
-        <source
-          srcset="images/image-profile-tablet.webp"
-          media="(min-width:800px)"
-          type="image/webp"
-          class="profile-picture"
-        />
-        <source
-          srcset="images/image-profile-mobile.webp"
-          media="(max-width: 750px)"
-          type="image/webp"
-          class="profile-picture"
-        />
-        <img
-          src="images/image-profile-mobile.webp"
-          alt="adam keyes head shot photo"
-          class="profile-picture"
-        />
-      </picture>
-      <img
-        src="images/pattern-circle.svg"
-        alt="small ring"
-        srcset=""
-        class="circle"
-      />
-      <h1>Nice to meet you! I'm Adam Keyes.</h1>
-      <p>
-        Based in the UK, I'm a front-end developer passionate about building
-        accessible web apps that users love.
-      </p>
-      <a href="#">Contact me</a>
-      <h3>HTML</h3>
-      <p>4 Years Experience</p>
-      <h3>CSS</h3>
-      <p>4 Years Experience</p>
-      <h3>JavaScript</h3>
-      <p>4 Years Experience</p>
-      <h3>Accessibility</h3>
-      <p>4 Years Experience</p>
-      <h3>React</h3>
-      <p>3 Years Experience</p>
-      <h3>Sass</h3>
-      <p>3 Years Experience</p>
-      <h2>Projects</h2>
-      <a href="#">Contact me</a>
-      <section>
-        <picture>
-          <source
-            srcset="images/thumbnail-project-1-large.webp"
-            media="(min-width:900px)"
-            type="image/webp"
-          />
-          <source
-            srcset="images/thumbnail-project-1-small.webp"
-            media="(max-width:899px)"
-            type="image/webp"
-          />
-          <img src="images/thumbnail-project-1-small.webp" alt="" srcset="" />
-        </picture>
-        <h4>Design portfolio</h4>
-        <p>HTML</p>
-        <p>CSS</p>
-        <a href="">View project</a>
-        <a href="">View code</a>
-      </section>
-      <section>
-        <picture>
-          <source
-            srcset="images/thumbnail-project-2-large.webp"
-            media="(min-width:900px)"
-            type="image/webp"
-          />
-          <source
-            srcset="images/thumbnail-project-2-small.webp"
-            media="(max-width:899px)"
-            type="image/webp"
-          />
-          <img src="images/thumbnail-project-2-small.webp" alt="" srcset="" />
-        </picture>
-        <h4>E-learning landing page</h4>
-        <p>HTML</p>
-        <p>CSS</p>
-        <a href="">View project</a>
-        <a href="">View code</a>
-      </section>
-      <section>
-        <picture>
-          <source
-            srcset="images/thumbnail-project-3-large.webp"
-            media="(min-width:900px)"
-            type="image/webp"
-          />
-          <source
-            srcset="images/thumbnail-project-3-small.webp"
-            media="(max-width:899px)"
-            type="image/webp"
-          />
-          <img src="images/thumbnail-project-3-small.webp" alt="" srcset="" />
-        </picture>
-        <h4>Todo web app</h4>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        <a href="">View project</a>
-        <a href="">View code</a>
-      </section>
-      <section>
-        <picture>
-          <source
-            srcset="images/thumbnail-project-4-large.webp"
-            media="(min-width:900px)"
-            type="image/webp"
-          />
-          <source
-            srcset="images/thumbnail-project-4-small.webp"
-            media="(max-width:899px)"
-            type="image/webp"
-          />
-          <img src="images/thumbnail-project-4-small.webp" alt="" srcset="" />
-        </picture>
-        <h4>Entertainment web app</h4>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        <a href="">View project</a>
-        <a href="">View code</a>
-      </section>
-      <section>
-        <picture>
-          <source
-            srcset="images/thumbnail-project-5-large.webp"
-            media="(min-width:900px)"
-            type="image/webp"
-          />
-          <source
-            srcset="images/thumbnail-project-5-small.webp"
-            media="(max-width:899px)"
-            type="image/webp"
-          />
-          <img src="images/thumbnail-project-5-small.webp" alt="" srcset="" />
-        </picture>
-        <h4>Memory Game</h4>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        <a href="">View project</a>
-        <a href="">View code</a>
-      </section>
-      <section>
-        <picture>
-          <source
-            srcset="images/thumbnail-project-6-large.webp"
-            media="(min-width:900px)"
-            type="image/webp"
-          />
-          <source
-            srcset="images/thumbnail-project-6-small.webp"
-            media="(max-width:899px)"
-            type="image/webp"
-          />
-          <img src="images/thumbnail-project-6-small.webp" alt="" srcset="" />
-        </picture>
-        <h4>Art gallery showcase</h4>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        <a href="">View project</a>
-        <a href="">View code</a>
-      </section>
+        <div class="hero">
+            <div class="rings-container">
+                <img src="images/pattern-rings.svg" alt="five thin rings stacked on top of each other" srcset="" class="rings" />
+            </div>
+            <div class="profile-img-container">
+                <picture>
+                    <source srcset="images/image-profile-desktop.webp" media="(min-width:1000px)" type="image/webp" class="profile-picture" />
+                    <source srcset="images/image-profile-tablet.webp" media="(min-width:800px)" type="image/webp" class="profile-picture" />
+                    <source srcset="images/image-profile-mobile.webp" media="(max-width: 750px)" type="image/webp" class="profile-picture" />
+                    <img src="images/image-profile-mobile.webp" alt="adam keyes head shot photo" class="profile-picture" />
+                </picture>
+            </div>
+            <div class="circle-container">
+                <img src="images/pattern-circle.svg" alt="small ring" srcset="" class="circle" />
+            </div>
+        </div>
+        <div class="hero-info">
+            <h1>Nice to meet you! I'm Adam Keyes.</h1>
+            <p>
+                Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.
+            </p>
+            <a href="#">Contact me</a>
+        </div>
+        <div class="hero-experience">
+            <h3>HTML</h3>
+            <p>4 Years Experience</p>
+            <h3>CSS</h3>
+            <p>4 Years Experience</p>
+            <h3>JavaScript</h3>
+            <p>4 Years Experience</p>
+            <h3>Accessibility</h3>
+            <p>4 Years Experience</p>
+            <h3>React</h3>
+            <p>3 Years Experience</p>
+            <h3>Sass</h3>
+            <p>3 Years Experience</p>
+            <h2>Projects</h2>
+            <a href="#">Contact me</a>
+        </div>
+        <div class="projects">
+            <section>
+                <picture>
+                    <source srcset="images/thumbnail-project-1-large.webp" media="(min-width:900px)" type="image/webp" />
+                    <source srcset="images/thumbnail-project-1-small.webp" media="(max-width:899px)" type="image/webp" />
+                    <img src="images/thumbnail-project-1-small.webp" alt="" srcset="" />
+                </picture>
+                <h4>Design portfolio</h4>
+                <p>HTML</p>
+                <p>CSS</p>
+                <a href="">View project</a>
+                <a href="">View code</a>
+            </section>
+            <section>
+                <picture>
+                    <source srcset="images/thumbnail-project-2-large.webp" media="(min-width:900px)" type="image/webp" />
+                    <source srcset="images/thumbnail-project-2-small.webp" media="(max-width:899px)" type="image/webp" />
+                    <img src="images/thumbnail-project-2-small.webp" alt="" srcset="" />
+                </picture>
+                <h4>E-learning landing page</h4>
+                <p>HTML</p>
+                <p>CSS</p>
+                <a href="">View project</a>
+                <a href="">View code</a>
+            </section>
+            <section>
+                <picture>
+                    <source srcset="images/thumbnail-project-3-large.webp" media="(min-width:900px)" type="image/webp" />
+                    <source srcset="images/thumbnail-project-3-small.webp" media="(max-width:899px)" type="image/webp" />
+                    <img src="images/thumbnail-project-3-small.webp" alt="" srcset="" />
+                </picture>
+                <h4>Todo web app</h4>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <a href="">View project</a>
+                <a href="">View code</a>
+            </section>
+            <section>
+                <picture>
+                    <source srcset="images/thumbnail-project-4-large.webp" media="(min-width:900px)" type="image/webp" />
+                    <source srcset="images/thumbnail-project-4-small.webp" media="(max-width:899px)" type="image/webp" />
+                    <img src="images/thumbnail-project-4-small.webp" alt="" srcset="" />
+                </picture>
+                <h4>Entertainment web app</h4>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <a href="">View project</a>
+                <a href="">View code</a>
+            </section>
+            <section>
+                <picture>
+                    <source srcset="images/thumbnail-project-5-large.webp" media="(min-width:900px)" type="image/webp" />
+                    <source srcset="images/thumbnail-project-5-small.webp" media="(max-width:899px)" type="image/webp" />
+                    <img src="images/thumbnail-project-5-small.webp" alt="" srcset="" />
+                </picture>
+                <h4>Memory Game</h4>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <a href="">View project</a>
+                <a href="">View code</a>
+            </section>
+            <section>
+                <picture>
+                    <source srcset="images/thumbnail-project-6-large.webp" media="(min-width:900px)" type="image/webp" />
+                    <source srcset="images/thumbnail-project-6-small.webp" media="(max-width:899px)" type="image/webp" />
+                    <img src="images/thumbnail-project-6-small.webp" alt="" srcset="" />
+                </picture>
+                <h4>Art gallery showcase</h4>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <a href="">View project</a>
+                <a href="">View code</a>
+            </section>
+        </div>
     </main>
     <footer>
-      <h1>Contact</h1>
-      <p>
-        I would love to hear about your project and how I could help. Please
-        fill in the form, and I’ll get back to you as soon as possible.
-      </p>
-      <form action="">
-        <label for="">Name</label>
-        <input type="text" name="" id="" />
-        <label for="">Email</label>
-        <input type="email" name="" id="" />
-        <label for="">Message</label>
-        <input type="text" name="" id="" />
-        <button type="submit">Send message</button>
-      </form>
-
-      <h3>adamkeyes</h3>
-      <ul>
-        <li><img src="images/icon-github.svg" alt="" srcset="" /></li>
-        <li><img src="images/icon-frontend-mentor.svg" alt="" srcset="" /></li>
-        <li><img src="images/icon-linkedin.svg" alt="" srcset="" /></li>
-        <li><img src="images/icon-twitter.svg" alt="" srcset="" /></li>
-      </ul>
+        <div class="form-container">
+            <h1>Contact</h1>
+            <p>
+                I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.
+            </p>
+            <form action="">
+                <label for="">Name</label>
+                <input type="text" name="" id="" />
+                <label for="">Email</label>
+                <input type="email" name="" id="" />
+                <label for="">Message</label>
+                <input type="text" name="" id="" />
+                <button type="submit">Send message</button>
+            </form>
+        </div>
+        <div class="footer-nav">
+            <h2 class="nav-head">adamkeyes</h2>
+            <ul class="social-list">
+                <li class="social-list-item">
+                    <img src=" images/icon-github.svg" alt=" " srcset="" class="social-icon" />
+                </li>
+                <li class="social-list-item">
+                    <img src="images/icon-frontend-mentor.svg" alt=" " srcset="" class="social-icon" />
+                </li>
+                <li class="social-list-item">
+                    <img src="images/icon-linkedin.svg" alt=" " srcset="" class="social-icon" />
+                </li>
+                <li class="social-list-item">
+                    <img src="images/icon-twitter.svg" alt=" " srcset="" class="social-icon" />
+                </li>
+            </ul>
+        </div>
     </footer>
-  </body>
+</body>
+
 </html>
